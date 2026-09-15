@@ -1,5 +1,6 @@
 // Given two inter values, the programs finds out if a number is less, equal or greater than the second number
-import std;
+ #include <iostream>
+
 
 int main()
 {
@@ -9,15 +10,15 @@ int main()
     std::cin >> a >> b;
     if (a < b) // condition
         // 1st alternative (if condition is true)
-        std::print("{} is less than {}\n", a, b);
+        std::cout << a << " is less than " << b << std::endl;
 
     else if (a > b)
         // 2nd alternative (if condition is false)
-        std::print("{} is greater than to {}\n", a, b);
+        std::cout << a<< " is greater than to " << b << std::endl;
     else if (a == b)
-        std::print("{} is equal to {}\n", a, b);
+        std::cout << a << " is equal to " << b << std::endl;
     else
-        std::print("Invalid input\n");
+        std::cout << "Invalid input\n";
 }
 
 // Try
