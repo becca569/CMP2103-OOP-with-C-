@@ -53,7 +53,7 @@ int main()
     print("{}/{}\n", correct_answers, 5);
 }
 
-// Try
+// Try 
 // Randomize the mathematical operation, including square root, power operation, division, multiplication, increase numbers to three.
 // The program should also display the time spent on the test. Ensure the first number is greater than the secod number.
 // Indicate if the answer entered is correct or wrod for each user entry.
