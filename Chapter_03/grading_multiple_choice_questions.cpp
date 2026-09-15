@@ -16,7 +16,7 @@ int main() {
     };
 
     const char key[10] = {'D', 'B', 'D', 'C', 'C', 'D', 'A', 'E', 'A', 'D'};
-
+    
     for (int student = 0; student < 8; ++student) {
         int correct = 0;
 
@@ -25,7 +25,7 @@ int main() {
                 ++correct;
             }
         }
-
+        
         std::cout << "Student " << student << ": " << correct
                   << " correct answers\n";
     }
